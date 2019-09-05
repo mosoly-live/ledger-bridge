@@ -1,0 +1,26 @@
+package: gitlab.com/p-invent/mosoly-ledger-bridge
+import:
+- package: go.uber.org/zap
+  version: v1.9.1
+- package: github.com/hashicorp/consul
+  version: v1.4.2
+- package: github.com/monetha/go-distributed
+  version: 16a880afd40d5e314ec921d6ee087845fbcf4c9d
+- package: github.com/ethereum/go-ethereum
+  version: v1.8.23
+- package: github.com/prometheus/client_golang
+  version: v0.9.2
+- package: github.com/rcrowley/go-metrics
+  version: e2704e165165ec55d062f5919b4b29494e9fa790
+- package: github.com/justinas/alice
+  version: 03f45bd4b7dad4734bc4620e46a35789349abb20
+- package: github.com/rs/cors
+  version: v1.6.0
+- package: github.com/jmoiron/sqlx
+  version: v1.2.0
+- package: golang.org/x/net
+  version: 5c2c250b6a70e39b74bb544433a348a892b10530
+  subpackages:
+  - websocket
+- package: github.com/monetha/go-verifiable-data
+  version: v0.6.0
